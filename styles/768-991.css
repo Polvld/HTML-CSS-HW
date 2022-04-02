@@ -1,0 +1,287 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #baner {
+        background: url("/img/baner.png") #fff no-repeat;
+        height: 158px;
+        width: 712px;
+        padding-top: 287px;
+    }
+    aside {
+        width: 710px;
+        height: 160px;
+        margin-bottom: 31px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer {
+        width: 716px;
+        height: 82px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #FFFFFF;
+        border-top: 2px solid #E5E5E5;
+        display: flex;
+        justify-content: space-between;
+    }
+    #flexbox {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .icon-logo {
+        width: 120px;
+        height: 120px;
+
+    }
+    #a-side-menu {
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        color: #34ACA7;
+        line-height: 14px;
+        display: flex;
+        flex-direction: row;
+    }
+    #a-side-menu button {
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        color: #34ACA7;
+        background: #FFFFFF;
+        padding: 0;
+        border: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100px;
+        height: 62px;
+    }
+    #tweet, #friends, #btn-join-conv, #btn-join-community, #weekly-funds {
+        display: none;
+    }
+    #baner h1 {
+        width: 269px;
+        height: 47px;
+        margin: 0;
+        background: #FFFFFF;
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        letter-spacing: 0.01em;
+        color: #000000;
+    }
+    #baner h2 {
+        width: 481px;
+        height: 42px;
+        margin: 0;
+        background: #000000;
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: #FFFFFF;
+    }
+    main {
+        height: 1000px;
+        margin-bottom: 31px;
+    }
+    #btn-main p {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #34ACA7;
+    }
+    #btn-main span {
+        display: none;
+    }
+    #btn-main {
+        display: flex;
+    }
+    #btn-main button {
+        width: 178px;
+        height: 35px;
+        padding: 0;
+        border: 0;
+        background: #EFF8F7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #btn-main button:hover {
+        background: #D9EFEC;
+    }
+    #subscribe {
+        width: 712px;
+        height: 74px;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 18px;
+        margin-bottom: 18px;
+        border-top: 1px dashed #E5E5E5;
+        border-bottom: 1px dashed #E5E5E5;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+    }
+    #subscribe .mail-icon {
+        width: 32px;
+        height: 26px;
+    }
+    #subscribe span {
+        width: 363px;
+        height: 41px;
+    }
+    #subscribe input {
+        width: 160px;
+        height: 22px;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        font-family: 'Arial';
+        color: #E5E5E5;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+    }
+    #subscribe button {
+        width: 80px;
+        height: 23px;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+        text-align: center;
+        color: #000000;
+        background: linear-gradient(180deg, #F4F3F3 0%, #BBB9B9 100%);
+        border: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        border-radius: 2px;
+    }
+    #content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .cards {
+        width: 157px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    .cards-img {
+        width: 157px;
+        height: 113px;
+        border: 11px solid #FFFFFF;
+        outline: 1px solid #E5E5E5;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .cards-img img {
+        min-width: 100%;
+        min-height: 100%;
+    }
+    .cards .beginning {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: -0.02em;
+        color: #34ACA7;
+        text-decoration: none;
+        height: fit-content;
+    }
+    .cards p {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: #000000;
+        height: fit-content;
+    }
+    .cards span {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: #E5E5E5;
+        width: 90px;
+        height: fit-content;
+    }
+    .cards .continue {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: #34ACA7;
+        text-decoration: none;
+        width: 44px;
+        height: 20px;
+    }
+    footer a {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: -0.02em;
+        color: #34ACA7;
+        text-decoration: none;
+    }
+    footer span {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: -0.02em;
+        color: #E5E5E5;
+    }
+    #footer-text {
+        display: flex;
+        align-self: center;
+        flex-flow: column wrap;
+    }
+    #footer-img img {
+        width: 32px;
+        height: 32px;
+    }
+    #footer-img {
+        display: flex;
+        align-self: center;
+    }
+}
